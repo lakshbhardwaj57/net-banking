@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+
+        }
+        .container{
+            height: 10vh;
+            width: 100%;
+            
+            display: flex;
+            background: linear-gradient(to right ,#309975,#58B368);
+            
+        }
+        
+        .logo1 img{
+            height: 25px;
+            width: 25px;
+            position: absolute;
+            left: 5%;
+            top: 2.5%;
+        }
+        .logo{
+            
+            margin-top: 20px;
+            margin-left: 7%;
+            font-weight: bold;
+            color: white;
+            font-size: 20px;
+        }
+
+        .nav{
+            
+            margin-left: 25%;
+            margin-top: 20px;
+         }
+         .nav a{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode' Verdana, sans-serif ;
+            padding: 20px;
+            color: white;
+            text-decoration: none;
+            font-size: 12px;
+         }
+         .login{
+          
+            margin-left: 16%;
+            margin-top: 20px;
+            font-size: 14px;
+            font-weight: bold;
+            color: white;
+         }
+         .btn button{
+            height: 4vh;
+            width: 100px;
+                margin-left: 30%;
+                margin-top: 12px;
+                border: none;
+                background: #DAD873;
+                border-radius: 5px;
+               animation: scaling 1s ease-in infinite alternate-reverse;
+         }
+          @keyframes scaling{
+            from{
+                transform: scale(0.9);
+            }
+            to{
+                transform: scale(1);
+            }
+        }
+         .btn button:hover{
+         background-color: white;
+         }
+          .container1{
+            height: 90vh;
+            width: 100%;
+            background: linear-gradient(to right ,#309975,#58B368);
+            display: flex;
+         }
+         .left{
+            height: 90vh;
+            width: 45%;
+        
+            
+         }
+         .left h1{
+            width: 65%;
+            color: white;
+            margin-left: 15%;
+            margin-top: 18%;
+            font-size: 8vh;
+            border-bottom: 4px solid white;
+            animation: scaling 1s ease-in infinite alternate-reverse;
+        }
+         @keyframes scaling{
+            from{
+                transform: scale(0.9);
+            }
+            to{
+                transform: scale(1);
+            }
+        }
+        .box{
+            height: 18vh;
+            width: 70%;
+            
+            display: flex;
+            margin-top: 10%;
+            margin-left: 15%;
+            gap: 60px;
+            }
+        .box1 ,.box2 ,.box3{
+            height: 18vh;
+            width: 40%;
+        
+        }
+        p{
+            font-size: 35px;
+            color: white;
+            font-weight: bold;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode' Verdana, sans-serif;
+           
+        }
+       
+        
+         p1, p2, p3 {
+            color: white;
+            margin-top: 30px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode' Verdana, sans-serif ;
+            
+         }
+        
+         .right{
+            height: 90vh;
+            width: 55%;
+        
+         }
+         .picture{
+            height: 100%;
+            width: 100%;
+         }
+         .btn1 button{
+            height: 8vh;
+            width: 25%;
+            margin-top: 5%;
+            margin-left: 15%;
+            color: #58B368;
+            background-color: #DAD873;
+            border: none;
+            border-radius: 10px;
+            box-shadow: 0px 5px 9px rgb(0, 0,0,0.25);
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode' Verdana, sans-serif ;
+             animation: scaling 1s ease-in infinite alternate-reverse;
+         }
+           @keyframes scaling{
+            from{
+                transform: scale(0.9);
+            }
+            to{
+                transform: scale(1);
+            }
+        }
+         .btn1 button:hover{
+            background-color: white;
+         }
+       .container2{
+            height: 100vh;
+            width: 100%;
+            
+            display: flex;
+         }
+         .left1{
+            height: 100vh;
+            width: 33.5%;
+          
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: end;
+            gap: 60px;
+         }
+         .boxes1,.boxes2{
+            height:25% ;
+            width: 65%;
+          
+            border-radius: 10px;
+            box-shadow: 0px 5px 9px rgb(0, 0,0,0.25);;
+             animation: moveright 3s linear 1;
+         }
+         .boxes1 h2{
+         font-size: 22px;
+         margin-top: 40px;
+        margin-left: 90px;
+        color: rgb(94, 92, 92);
+         font-weight: bold;   
+        }   
+        .boxes1  p{
+            width: 62%;
+            font-size: 12px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode' Verdana, sans-serif;
+            margin-left: 90px;
+            margin-top: 8px;
+            color: rgb(139, 134, 134);
+                }
+        .boxes2 h2{
+             font-size: 22px;
+         margin-top: 40px;
+        margin-left: 90px;
+        color: rgb(94, 92, 92);
+         font-weight: bold;
+        }
+        .boxes2 p{
+             width: 62%;
+            font-size: 12px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode' Verdana, sans-serif;
+            margin-left: 90px;
+            margin-top: 8px;
+            color: rgb(139, 134, 134);
+        }
+        .boxes1:hover,.boxes2:hover{
+         background-color: #6bb6d6;
+        }
+         .bottom{
+            height: 100vh;
+            width: 33%;
+            
+          }
+          .bottom h1{
+            margin-top: 20px;
+            color: rgb(74, 73, 73);
+             text-align: center;
+            font-weight: bold;
+            
+          }
+          .bottom img{
+            height: 32%;
+            width: 45%;
+            margin-left: 26%;
+            margin-top: 30%;
+          }
+          .bottom p{
+            color: rgb(134, 134, 134);
+            font-size: 20px;
+            text-align: center;
+            margin-top: 8px;
+            font-weight: bold;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+          }
+         .right1{
+            height: 100vh;
+            width: 33.5%;
+           
+              display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: start;
+            gap: 60px;
+         }
+         .boxes3{
+                height:25% ;
+            width: 65%;
+             background-color: #309975;
+            border-radius: 10px;
+            box-shadow: 0px 5px 9px rgb(0, 0,0,0.25);
+               animation: moverleft 3s linear 1;
+               
+         }
+         .boxes3 h2{
+               font-size: 22px;
+         margin-top: 40px;
+        margin-left: 90px;
+        color: rgb(248, 245, 245);
+         font-weight: bold;
+         }
+         .boxes3 p{
+            width: 62%;
+            font-size: 12px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode' Verdana, sans-serif;
+            margin-left: 90px;
+            margin-top: 8px;
+            color: rgb(251, 246, 246);
+         }
+         .boxes3:hover{
+            background-color: #58B368;
+         }
+         .boxes4{
+              height:25% ;
+            width: 65%;
+          
+            border-radius: 10px;
+            box-shadow: 0px 5px 9px rgb(0, 0,0,0.25);;
+               animation: moverleft 3s linear 1;
+         }
+         .boxes4 h2{
+   font-size: 22px;
+         margin-top: 40px;
+        margin-left: 90px;
+        color: rgb(94, 92, 92);
+         font-weight: bold;
+         }
+         .boxes4 p{
+ width: 62%;
+            font-size: 12px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode' Verdana, sans-serif;
+            margin-left: 90px;
+            margin-top: 8px;
+            color: rgb(139, 134, 134);
+         }
+         .boxes4:hover{
+            background-color:#6bb6d6 ;
+         }
+          @keyframes moveright
+        {
+            from{
+               transform: translate(-500px);
+            }
+        to{
+             transform: translate(10px);
+          }
+  }   @keyframes moverleft
+        {
+            from{
+               transform: translateX(500px);
+            }
+        to{
+             transform: translateX(10px);
+          }
+  }
+
+         .container3{
+            height: 90vh;
+            width: 100%;
+           
+            background: linear-gradient(to right ,#309975,#58B368);
+            display: flex;
+         }
+         .left2{
+            height:90vh;
+            width: 40%;
+            
+            display: flex;
+            justify-content: end;
+            align-items: center;
+         }
+         .box4{
+            height: 60vh;
+            width: 70%;
+            
+            border-radius: 15px;
+         }
+         .picture1{
+            height: 100%;
+            width: 100%;
+         }
+         .right2{
+            height: 90vh;
+            width: 60%;
+            
+            
+         }
+         .right2 h1{
+            color: white;
+            font-size: 40px;
+            font-weight: bold;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            margin-left: 15%;
+            margin-top: 25%;
+         }
+         .right2 p{
+            font-size: 22px;
+            margin-top: 8%;
+            margin-left: 15%;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+            color: rgb(212, 210, 210);
+            font-weight: 100;
+         }
+         .container4{
+            height: 45vh;
+            width: 100%;
+           
+            display: flex;
+         }
+         .left3{
+            height: 45vh;
+            width: 50%;
+           
+         }
+         .logo3{
+            margin-top: 2%;
+            margin-left: 18% ;
+         }
+         .logo3 img{
+            height: 35px;
+            width: 35px;
+         }
+         .logo4{
+            color: #58B368;
+            font-weight: bold;
+            font-size: 25px;
+            margin-left: 23%;
+            margin-top: -4.5%;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+         }
+         .left3 p{
+            color: black;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: 20px;
+            margin-left: 18%;
+            margin-top: 5%;
+         }
+         .left3 input{
+            height: 15%;
+            width: 50%;
+            margin-left: 18%;
+            margin-top: 2%;
+            padding: 3px 0px 0px 5px;
+            background-color: rgba(235, 231, 231, 0.781);
+            border-radius: 10px;
+            border: none;
+         }
+         .left3 h1{
+            color: rgb(77, 77, 77);
+            font-size: 12px;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            margin-left: 18%;
+            margin-top: 4%;
+         }
+         .right3{
+            height: 45vh;
+            width: 50%;
+            
+            display: flex;
+         }
+         .right4{
+          height: 45vh;
+          width: 20%;
+         
+          margin-left: 20%;
+          margin-top: 8%;
+          font-size: 15px;
+           }
+           .right5{
+            height: 45vh;
+            width: 50%;
+           
+             margin-left: 20%;
+          margin-top: 8%;
+          font-size: 15px;
+           }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo1"><img src="logo..png"></div>
+        <div class="logo">LOGO</div>
+        <div class="nav">
+            <a href="">HOME</a>
+            <a href="">FEATURES</a>
+            <a href="">CARDS</a>
+            <a href="">CONTACT</a>
+         </div>
+         <div class="login">LOGIN</div>
+         <div class="btn"><button>SIGNUP</button></div>
+    </div>
+    <div class="container1">
+        <div class="left">
+            <h1>Your Next<br> Online Bank.</h1>
+            <div class="box">
+            <div class="box1"><p>6X</p><p1>Lorem ipsum<br> dolor sit amet,</p1></div>
+            <div class="box2"><p>-15%</p><p2>lorem ipsum<br> dolor sit amet,</p2></div>
+            <div class="box3"><p>3M+</p><p3>lorem ipsum<br> dolor sit amet,</p3></div>
+          </div>
+          <div class="btn1"><button>DOWNLOAD NOW</button></div>
+         </div>
+        <div class="right"><img class="picture" src="girl image.png" alt="picture"></div>
+    </div>
+   <div class="container2">
+    <div class="left1">
+        <div class="boxes1">
+            <h2>Bank Transfer</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipising elit.Lorem ipsum dolor sit amet, consectetur adipising elit.</p>
+       </div>
+        <div class="boxes2">
+             <h2>Bank Transfer</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipising elit.Lorem ipsum dolor sit amet, consectetur adipising elit.</p>
+        </div>
+    </div>
+    <div class="bottom">
+        <h1>Our Global Services</h1>
+        <p>we providing two cards for their one<br>mission and finance</p>
+        <img src="website icon.png">
+    </div>
+    <div class="right1">
+        <div class="boxes3">
+            <h2>Bank Transfer</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipising elit.Lorem ipsum dolor sit amet, consectetur adipising elit.</p>
+        </div>
+        <div class="boxes4">
+            <h2>Bank Transfer</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipising elit.Lorem ipsum dolor sit amet, consectetur adipising elit.</p>
+        </div>
+    </div>
+   </div>
+        <div class="container3">
+            <div class="left2">
+                <div class="box4"><img class="picture1" src="3rd section image.png">"</div>
+            </div>
+            <div class="right2">
+                <h1>Make your customers<br>happy by giving services.</h1>
+         <p>We share common trends and strategies<br>for improving your rental income and<br>making sure you stay in high demand.</p>
+            </div>
+        </div>
+        <div class="container4">
+            <div class="left3">
+                <div class="logo3"><img src="logo..png"></div>
+                <div class="logo4">LOGO</div>
+                <p>Subscribe to keep up with the<br> latest news</p>
+                <input type="text" placeholder="ENTER YOUR EMAIL" required>
+                <h1>by submitting this form,you acknowledge that you have <br>terms of your privacy statement</h1>
+                 </div>
+            <div class="right3">
+                <div class="right4"><b>SOLUTION</b><br><br>Master card<br><br>Louis vuitton<br><br>Gillete<br><br>Apple<br><br>General electric</div>
+                <div class="right5"><b>SOLUTION</b><br><br>Home<br><br>About<br><br>Services<br><br>Contact<br><br>Term and Conditions</div>
+            </div>
+        </div>
+</body>
+</html>
